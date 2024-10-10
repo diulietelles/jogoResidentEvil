@@ -51,7 +51,7 @@ nav span{
     left: 0;
     width: 95px;
     height: 100%;
-    background:linear-gradient(45deg, #194b4f,#33fffc);
+    background: linear-gradient(45deg, #194b4f,#33fffc);
     border-radius: 10px;
     transition: 0.5s;
 }
