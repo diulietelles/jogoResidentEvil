@@ -5,12 +5,12 @@ body{
     padding: 0;
     box-sizing: border-box ;
     font-family: 'Open Sans', sans-serif;
-    display: flex;
+    display: flex;flex-wrap: wrap;
     height: 100vh;
     justify-content: center;
     align-items: center;
-   
-   
+   flex-grow: 1; flex-basis: 200px;
+    
 }
 
 body:before{
