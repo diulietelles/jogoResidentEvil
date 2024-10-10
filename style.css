@@ -51,7 +51,7 @@ nav span{
     left: 0;
     width: 95px;
     height: 100%;
-    background: transparent;
+    background:linear-gradient(45deg, #194b4f,#33fffc);
     border-radius: 10px;
     transition: 0.5s;
      opacity: 0.8/* ajusta transparencia do botao */
