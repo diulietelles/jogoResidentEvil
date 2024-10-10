@@ -9,7 +9,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: transparent; /* sequiser fundo do botao transparente */
+   
    
 }
 
@@ -54,7 +54,6 @@ nav span{
     background:linear-gradient(45deg, #194b4f,#33fffc);
     border-radius: 10px;
     transition: 0.5s;
-     opacity: 0.8/* ajusta transparencia do botao */
 }
 
 /* passar o mouse sobre o botão, design com cor (modificar)*/
