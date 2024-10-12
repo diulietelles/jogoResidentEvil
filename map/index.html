@@ -1,0 +1,38 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Evil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container que mantem a imagem do mapa e areas interativas -->
+    <div class="map-container">
+        <!-- img mapa -->
+        <img src="mapa.png" alt="Mapa do Jogo" id="mapa-jogo">
+        
+        <!-- cada area gerou um 'link' invisivel para executar uma funcao(tentar juntar do trabalho)-->
+        <a href="javascript:void(0)" class="area1" id="area1"></a>
+        <a href="javascript:void(0)" class="area2" id="area2"></a>
+        <a href="javascript:void(0)" class="area3" id="area3"></a>
+        
+        <!-- aqui era para aparecer as imagens, mas nao esta funcionando TT -->
+        <img src=" " alt="Vitória Área 1" class="popup-image popup-image1">
+        <img src=" " alt="Vitória Área 2" class="popup-image popup-image2">
+        <img src=" " alt="Vitória Área 3" class="popup-image popup-image3">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+   <div class="map-container">
+    <!-- 1 conteiner que mantem a imagem do mapa e as areas interativas facilita a posicao delas -->
+<img src="mapa.png" alt="Mapa do Jogo" id="mapa-jogo">
+ <!-- img principal do mapa, onde as areas interativas estao sobrepostas -->
+
+<a href="javascript:void(0)" class="area1" id="area1"></a>
+<!-- cada area <a> é um link invisivel, qndo clicado, executa uma função em js O javascript:void(0) impede que a  pagina recarregue qnd clicar -->
+
+<script src="script.js"></script>
